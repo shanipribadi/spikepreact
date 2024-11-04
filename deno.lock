@@ -1,0 +1,174 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:@coreui/coreui@^5.2.0": "5.2.0_@popperjs+core@2.11.8",
+    "npm:@coreui/react@^5.4.1": "5.4.1_react@18.3.1_react-dom@18.3.1__react@18.3.1_@popperjs+core@2.11.8",
+    "npm:@preact/compat@^18.3.1": "18.3.1_preact@10.24.3",
+    "npm:preact-render-to-string@^6.5.11": "6.5.11_preact@10.24.3",
+    "npm:preact@^10.24.3": "10.24.3"
+  },
+  "npm": {
+    "@coreui/coreui@5.2.0_@popperjs+core@2.11.8": {
+      "integrity": "sha512-DZLWzPIZP3KTNgcaRXny/7lcQm0rDMrheu3VsWpgbln5rUuJwxdopwhTSnOryVyCwjlDbs3Z8ZfIzOeBXNC4GA==",
+      "dependencies": [
+        "@popperjs/core"
+      ]
+    },
+    "@coreui/react@5.4.1_react@18.3.1_react-dom@18.3.1__react@18.3.1_@popperjs+core@2.11.8": {
+      "integrity": "sha512-ycO1XEGWqxa1Yx+1FK9wieEKVxSP8tS9QwgmtyEifZ6ArA6AvG8C1rPBuVb3FNE1SXwSEc50+zmy62QfRLtG0Q==",
+      "dependencies": [
+        "@coreui/coreui",
+        "@popperjs/core",
+        "prop-types",
+        "react",
+        "react-dom"
+      ]
+    },
+    "@popperjs/core@2.11.8": {
+      "integrity": "sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A=="
+    },
+    "@preact/compat@18.3.1_preact@10.24.3": {
+      "integrity": "sha512-Kog4PSRxtT4COtOXjsuQPV1vMXpUzREQfv+6Dmcy9/rMk0HOPK0HTE9fspFjAmY8R80T/T8gtgmZ68u5bOSngw==",
+      "dependencies": [
+        "preact"
+      ]
+    },
+    "js-tokens@4.0.0": {
+      "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
+    },
+    "loose-envify@1.4.0": {
+      "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+      "dependencies": [
+        "js-tokens"
+      ]
+    },
+    "object-assign@4.1.1": {
+      "integrity": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg=="
+    },
+    "preact-render-to-string@6.5.11_preact@10.24.3": {
+      "integrity": "sha512-ubnauqoGczeGISiOh6RjX0/cdaF8v/oDXIjO85XALCQjwQP+SB4RDXXtvZ6yTYSjG+PC1QRP2AhPgCEsM2EvUw==",
+      "dependencies": [
+        "preact"
+      ]
+    },
+    "preact@10.24.3": {
+      "integrity": "sha512-Z2dPnBnMUfyQfSQ+GBdsGa16hz35YmLmtTLhM169uW944hYL6xzTYkJjC07j+Wosz733pMWx0fgON3JNw1jJQA=="
+    },
+    "prop-types@15.8.1": {
+      "integrity": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",
+      "dependencies": [
+        "loose-envify",
+        "object-assign",
+        "react-is"
+      ]
+    },
+    "react-dom@18.3.1_react@18.3.1": {
+      "integrity": "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==",
+      "dependencies": [
+        "loose-envify",
+        "react",
+        "scheduler"
+      ]
+    },
+    "react-is@16.13.1": {
+      "integrity": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
+    },
+    "react@18.3.1": {
+      "integrity": "sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==",
+      "dependencies": [
+        "loose-envify"
+      ]
+    },
+    "scheduler@0.23.2": {
+      "integrity": "sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==",
+      "dependencies": [
+        "loose-envify"
+      ]
+    }
+  },
+  "redirects": {
+    "https://esm.sh/@coreui/coreui": "https://esm.sh/@coreui/coreui@5.2.0",
+    "https://esm.sh/@coreui/react@^5.4.1?target=es2020&external=react": "https://esm.sh/@coreui/react@5.4.1?target=es2020&external=react",
+    "https://esm.sh/@preact/compat@^18.3.1?target=es2020": "https://esm.sh/@preact/compat@18.3.1?target=es2020",
+    "https://esm.sh/preact-render-to-string@^6.5.11?target=es2020": "https://esm.sh/preact-render-to-string@6.5.11?target=es2020",
+    "https://esm.sh/preact@^10.24.3/jsx-runtime?target=es2020": "https://esm.sh/preact@10.24.3/jsx-runtime?target=es2020"
+  },
+  "remote": {
+    "https://esm.sh/@coreui/coreui@5.2.0": "3e89998ba7da16ca8e9c78e2ae753e890cbb494ae0aac479fc07cdcdfeb7ed4f",
+    "https://esm.sh/@coreui/react@5.4.1": "ddd789742e08b7b61526ad5bf0837010a6f865b1fcd691d00ac6a03610c82331",
+    "https://esm.sh/@coreui/react@5.4.1?target=es2020": "4e714767b8839a4d300c801b01a7fb2c13eb8a3477ca08e090f6a8ce5c497353",
+    "https://esm.sh/@coreui/react@5.4.1?target=es2020&external=react": "c2ef25eeac23639f468aa1c2b4826dd95df5644c3c28081ffc1936b801ddc3a1",
+    "https://esm.sh/@coreui/react@5.4.1?target=es2020&external=react,react-dom": "99e725490df4d3dc71ed187d2fc4643250b47586754f3f97d1175cb83fe2ebff",
+    "https://esm.sh/@preact/compat@18.3.1?target=es2020": "7ecd143e87fa81706e06d3f11e5a683f635901d05e2510ad86a715507040bf97",
+    "https://esm.sh/preact-render-to-string@6.5.11": "203fd2944fec4c0fcf32da6b91aeda1498e056943147e4d4cdc7d39b3b9d6a21",
+    "https://esm.sh/preact-render-to-string@6.5.11?target=deno": "b7d8adbc283ffb7d6c49b04f02d68607c6a0ee1d165b3120346900ccc5db75df",
+    "https://esm.sh/preact-render-to-string@6.5.11?target=denonext": "203fd2944fec4c0fcf32da6b91aeda1498e056943147e4d4cdc7d39b3b9d6a21",
+    "https://esm.sh/preact-render-to-string@6.5.11?target=es2020": "911807771555177bf02158a5ae58fa5794b8ac7628fcad473a86d414c221935e",
+    "https://esm.sh/preact-render-to-string@6.5.11?target=es2021": "3cae3a8286fe8f4c54c6cdccaa4b558542ff04f14b545c7ad13b549e5a01c7ad",
+    "https://esm.sh/preact-render-to-string@6.5.11?target=es2022": "9a247ac1593ab37300bf480a853a41a2ad827d16ef7126e284f124c9adf2f5be",
+    "https://esm.sh/preact-render-to-string@6.5.11?target=es2023": "203fd2944fec4c0fcf32da6b91aeda1498e056943147e4d4cdc7d39b3b9d6a21",
+    "https://esm.sh/preact-render-to-string@6.5.11?target=es2024": "203fd2944fec4c0fcf32da6b91aeda1498e056943147e4d4cdc7d39b3b9d6a21",
+    "https://esm.sh/preact@10.24.3/jsx-runtime": "b9e4a84f55cb84ddb400600787de5b6a0ee66d879d8cf920dc0cdc94d00ae847",
+    "https://esm.sh/preact@10.24.3/jsx-runtime?target=deno": "11ba7396d81df1708763ed48a1e84421bfd283d68503566b2686bad7838230a4",
+    "https://esm.sh/preact@10.24.3/jsx-runtime?target=denonext": "b9e4a84f55cb84ddb400600787de5b6a0ee66d879d8cf920dc0cdc94d00ae847",
+    "https://esm.sh/preact@10.24.3/jsx-runtime?target=es2020": "b4ee0707e24594ce6c7b7b502d88aa1bb0fef2852de3ca3f6ac891fbbbeb5e79",
+    "https://esm.sh/preact@10.24.3/jsx-runtime?target=es2021": "b7091e647fe82e265f9b8dd019aeca6f068bd9341f229be1599cd91a8fda2a44",
+    "https://esm.sh/preact@10.24.3/jsx-runtime?target=es2022": "e6b32023f15c02533424884136fc85de29deb274e89d8595f2eb9ca1a3751e51",
+    "https://esm.sh/preact@10.24.3/jsx-runtime?target=es2023": "b9e4a84f55cb84ddb400600787de5b6a0ee66d879d8cf920dc0cdc94d00ae847",
+    "https://esm.sh/preact@10.24.3/jsx-runtime?target=es2024": "b9e4a84f55cb84ddb400600787de5b6a0ee66d879d8cf920dc0cdc94d00ae847",
+    "https://esm.sh/stable/preact@10.24.0/denonext/preact.mjs": "c914516d9df1c45afa542a588beb077ff6a1ab57ec97eb4593006e8794c1752e",
+    "https://esm.sh/stable/preact@10.24.0/es2022/preact.mjs": "eaf4173526a4c179b57a62d450d79337aa665c07d1e29ba351938755895b6eef",
+    "https://esm.sh/stable/preact@10.24.1/es2021/preact.mjs": "141eaf70b65be7c2a64a6ef57d09d6be37f5ee41f23f9c7f9f20e57e4748ef6e",
+    "https://esm.sh/stable/preact@10.24.3/deno/jsx-runtime.js": "0b366db59c11b46e4cf644dffe40fa2ffe10263a5e24b3f0fe272b818f46e786",
+    "https://esm.sh/stable/preact@10.24.3/deno/preact.mjs": "0c7c9b7201acc3afada99c88c94bee377a97c06f35a2a20f359dbabfe19aa0b1",
+    "https://esm.sh/stable/preact@10.24.3/denonext/jsx-runtime.js": "562a3adc7f89394c5fc430323f2875e9ec954bf138572227e5a26f9b42a8d179",
+    "https://esm.sh/stable/preact@10.24.3/denonext/preact.mjs": "adda7b905b40f0bab844d3ee900378e59da2b16f0f8e716ba9a8d67c15b78c87",
+    "https://esm.sh/stable/preact@10.24.3/es2020/compat.js": "b3d538f24b190ea694b3291692a446c0f9238142a23f031872ef0c8c6dc00363",
+    "https://esm.sh/stable/preact@10.24.3/es2020/hooks.js": "c1a767e97845f6483061e4adc73998823c1e36b56974ffdf179c548a4441ec5f",
+    "https://esm.sh/stable/preact@10.24.3/es2020/jsx-runtime.js": "e1f8cdcdbca8a46f74f274b1447bec31bb7601e3cf0b860fe14f5964d7e6c82c",
+    "https://esm.sh/stable/preact@10.24.3/es2020/preact.mjs": "7eae7ef83eeb3375d46d7e2e1c658034f8f374c885f34a75a2cd3da05ed834cd",
+    "https://esm.sh/stable/preact@10.24.3/es2021/jsx-runtime.js": "4fe22f2da46ed676073f2544aff85694db5f8d59c370df3530b3bf8a3c1d5688",
+    "https://esm.sh/stable/preact@10.24.3/es2021/preact.mjs": "764c04b597635cc11f1b624ca1b999ddd56d2414e1e6fa170bf51b091dcc686a",
+    "https://esm.sh/stable/preact@10.24.3/es2022/jsx-runtime.js": "0140277dad12257ab539634a57071968a26104ccc6075f625a76b6fd055a54b8",
+    "https://esm.sh/stable/preact@10.24.3/es2022/preact.mjs": "56f08d99ff741d7f30366285ed6b28a130352b113808f440e4dcdefcd910dc66",
+    "https://esm.sh/stable/react@18.3.1/denonext/react.mjs": "fc048ffc55366baf7669519127d186761db72046e2bebf35fe8d0de3964defa3",
+    "https://esm.sh/stable/react@18.3.1/es2020/react.mjs": "2a193c09bf1b850707a6951f56b6efdc7c3075dad195a11126bd61012d01956f",
+    "https://esm.sh/v135/@coreui/coreui@5.2.0/denonext/coreui.mjs": "9e40ac30559de1939f2abdac401ed149ebb2ec218ec0e36e13c6221a4d4d402b",
+    "https://esm.sh/v135/@coreui/react@5.4.1/X-ZS9yZWFjdA/es2020/react.mjs": "71a892814127f192b1420b5afe912d8baa6f68d66373c2b90ed4ed36352c4001",
+    "https://esm.sh/v135/@coreui/react@5.4.1/X-ZS9yZWFjdCxyZWFjdC1kb20/es2020/react.mjs": "bc134add26a3e730f2c4c91b4b6c365c66d981c0c4fbf807c9da00aea5a69055",
+    "https://esm.sh/v135/@coreui/react@5.4.1/denonext/react.mjs": "016016fe7ca51fe69b4a05d52a5cb320972ad4f3dbf5453b5c6c0dfbb74325e0",
+    "https://esm.sh/v135/@coreui/react@5.4.1/es2020/react.mjs": "d4987b4cb79f511fd922e4326cff38a3840bed56a3013465ef8009a307558435",
+    "https://esm.sh/v135/@popperjs/core@2.11.8/denonext/core.mjs": "ca2fd8d4f07c3dcaf9d5ed1dbe47605246bd231f12df92caa3c78290bd0c8a21",
+    "https://esm.sh/v135/@popperjs/core@2.11.8/es2020/core.mjs": "e1e2b6bc9ff708d4eaf076f3cf39a422c5341968bdbc80beb66ed3f095df6742",
+    "https://esm.sh/v135/@preact/compat@18.3.1/es2020/compat.mjs": "31aaa1f8b657c6117864ffdf9f5c892e4bb97e620d20a9facfddd986779d6da7",
+    "https://esm.sh/v135/preact-render-to-string@6.5.11/deno/preact-render-to-string.mjs": "9132bc15b16d5d7f95309d6e426b35a3b01ff05b11ee03fdadbc1ad3d231a3d0",
+    "https://esm.sh/v135/preact-render-to-string@6.5.11/denonext/preact-render-to-string.mjs": "d01df297f6d8b47ec370da4e0803615cf82709d053de0b0b440f75bd20603c40",
+    "https://esm.sh/v135/preact-render-to-string@6.5.11/es2020/preact-render-to-string.mjs": "00adf598ca0485448f8978af74e153cef31dbb059a347b00e406122db56ee52e",
+    "https://esm.sh/v135/preact-render-to-string@6.5.11/es2021/preact-render-to-string.mjs": "68e9e8b3de7cb496f325a13ea1d8b5df5a5337bfbdfcdb4684e3a58ff4f95bb9",
+    "https://esm.sh/v135/preact-render-to-string@6.5.11/es2022/preact-render-to-string.mjs": "90f54321721ad194b0244c0df2c3d4e9c9f62c72deccf150eef3b41e5e179bfa",
+    "https://esm.sh/v135/prop-types@15.8.1/X-ZS9yZWFjdA/es2020/prop-types.mjs": "451fc07480ee5dab41004bdef3ebafc201589246db181fc9294ea7fdb20c9416",
+    "https://esm.sh/v135/prop-types@15.8.1/X-ZS9yZWFjdCxyZWFjdC1kb20/es2020/prop-types.mjs": "451fc07480ee5dab41004bdef3ebafc201589246db181fc9294ea7fdb20c9416",
+    "https://esm.sh/v135/prop-types@15.8.1/denonext/prop-types.mjs": "c4ce53e88327d3911a960c3f34e76f114fce31a9e45139427a0df4fad24c1bd5",
+    "https://esm.sh/v135/prop-types@15.8.1/es2020/prop-types.mjs": "451fc07480ee5dab41004bdef3ebafc201589246db181fc9294ea7fdb20c9416",
+    "https://esm.sh/v135/react-dom@18.3.1/X-ZS9yZWFjdA/es2020/react-dom.mjs": "1f50cc31fe403c9c8a3ca00f3d9639b54e68fa5a92f55e454817746d53306925",
+    "https://esm.sh/v135/react-dom@18.3.1/denonext/react-dom.mjs": "0c4ad76e514ad1c9d8987d49679c5f2a6299b34c1b7fbf10a5da056ae4a0963f",
+    "https://esm.sh/v135/react-dom@18.3.1/es2020/react-dom.mjs": "4b92bb1f162af99dd89778dc53863adff37c0d335f8c7019bcdfb70e52214be6",
+    "https://esm.sh/v135/scheduler@0.23.2/X-ZS9yZWFjdA/es2020/scheduler.mjs": "839d631ec58286e2338bd7e1c6b8d7c3cbd95b8148a40564b0a2dfd0db39517b",
+    "https://esm.sh/v135/scheduler@0.23.2/denonext/scheduler.mjs": "dc96e5be52b14a40ce36295d938d5211e520c4da3183fe2ad4283ed103747d82",
+    "https://esm.sh/v135/scheduler@0.23.2/es2020/scheduler.mjs": "839d631ec58286e2338bd7e1c6b8d7c3cbd95b8148a40564b0a2dfd0db39517b"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1"
+    ],
+    "packageJson": {
+      "dependencies": [
+        "npm:@coreui/coreui@^5.2.0",
+        "npm:@coreui/react@^5.4.1",
+        "npm:@preact/compat@^18.3.1",
+        "npm:preact-render-to-string@^6.5.11",
+        "npm:preact@^10.24.3"
+      ]
+    }
+  }
+}

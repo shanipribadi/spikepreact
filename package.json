@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@coreui/coreui": "npm:@coreui/coreui@^5.2.0",
+    "@coreui/react": "npm:@coreui/react@^5.4.1",
+    "preact": "npm:preact@^10.24.3",
+    "preact-render-to-string": "npm:preact-render-to-string@^6.5.11",
+    "react": "npm:@preact/compat@^18.3.1"
+  }
+}
